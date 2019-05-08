@@ -26,7 +26,7 @@ for line in  text:
 
     if word != 'EOS':
         print(word)
-        print(f'{total - counter} words\n{int(speed * (total - counter))} seconds remines')
+        print(f'{total - counter} words\n{int(speed * (total - counter))} seconds remain')
 
     counter = counter + 1
     sleep(speed)
